@@ -1,0 +1,6 @@
+{
+  "name": "azure-speech-stt", "version": "1.0.0", "private": true, "type": "module",
+  "scripts": {"build": "esbuild src/app.js --bundle --minify --outfile=public/app.js", "start": "node --env-file-if-exists=.env server.js", "test": "node --test"},
+  "dependencies": {"microsoft-cognitiveservices-speech-sdk": "^1.47.0"},
+  "devDependencies": {"esbuild": "^0.25.0"}
+}
